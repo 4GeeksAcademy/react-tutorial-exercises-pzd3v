@@ -6,7 +6,8 @@ const Alert = (props) => {
 	// Add the condition inside this function
 	if (props.show === false) {
 		return null;
-	} else {
+  } else {
+    
 		return (
 			<div className="alert alert-primary" role="alert">
 				{props.text}
